@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment</title>
+</head>
+<body>
+    <h1>JavaScript Assignments</h1>
+    <h2>The Nullish Operator</h2>
+    <h3>The ??= Operator</h3>
+
+    <p>If the first value is undefined or null, the second value is assigned.</p>
+
+    <p id="demo22"></p>
+
+    <h1>JavaScript Assignments</h1>
+    <h2>The Nullish Operator</h2>
+    <h3>The ??= Operator</h3>
+
+    <p>If the first value is undefined or null, the second value is assigned.</p>
+
+    <p id="demo23"></p>
+
+    <h1>JavaScript Assignments</h1>
+    <h2>The Spread Operator</h2>
+    <h3>The ... Operator</h3>
+
+    <p id="demo24"></p>
+
+    
+    <script>
+    let _x = null;
+    _x ??= 10;
+
+    document.getElementById("demo22").innerHTML = "x is: " + -_x;     
+
+    let x = undefined;  
+    x ??= 10;
+    document.getElementById("demo23").innerHTML = "x is: " + x;    
+
+    let text = "12345";
+    let min = Math.min(...text);
+    let max = Math.max(...text);
+
+    document.getElementById("demo24").innerHTML =
+    "Minimum is: " + min + "<br>Maximum is: " + max;
+</script>
+</body>
+</html>

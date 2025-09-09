@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js Arithmetic</title>
+</head>
+<body>
+    <h2>JavaScript Arithmetic</h2>
+    <p>A typical arithmetic operation takes two numbers and produces a new number.</p>
+
+    <p id="demo"></p>
+
+    <h2>JavaScript Arithmetic</h2>
+    <p>A typical arithmetic operation takes two numbers (or variables) and produces a new number.</p>
+
+    <p id="demo2"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>Arithmetic Operations</h2>
+    <p>A typical arithmetic operation takes two numbers (or expressions) and produces a new number.</p>
+
+    <p id="demo3"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>The + Operator</h2>
+
+    <p id="demo4"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>The - Operator</h2>
+
+    <p id="demo5"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>The * Operator</h2>
+
+    <p id="demo6"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>The / Operator</h2>
+
+    <p id="demo7"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>The % (reminder) Operator</h2>
+
+    <p id="demo8"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>The ++ Operator</h2>
+
+    <p id="demo9"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>The -- Operator</h2>
+
+    <p id="demo10"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>The ** Operator</h2>
+
+    <p id="demo11"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>Math.pow()</h2>
+
+    <p id="demo12"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>Operator Precedence</h2>
+    <p>Multiplication has precedence over addition.</p>
+
+    <p id="demo13"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>Operator Precedence</h2>
+    <p>Multiplication has precedence over addition.</p>
+    <p>But parenthesis has precedence over multiplication.</p>
+
+    <p id="demo14"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>Operator Precedence</h2>
+    <p>When many operations has the same precedence, they are computed from left to right.</p>
+
+    <p id="demo15"></p>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>Operator Precedence</h2>
+    <p>When many operations has the same precedence, they are computed from left to right.</p>
+
+    <p id="demo16"></p>
+
+
+    <script>
+        let x = 100 + 50;
+        document.getElementById("demo").innerHTML = x;
+
+        let a = 100;
+        let b = 50;
+        let z = a + b;
+        document.getElementById("demo2").innerHTML = z;
+
+        let n = 3;
+        let m = (100 + 50) * n;
+        document.getElementById("demo3").innerHTML = m;
+
+        let _x = 5;
+        let _y = 2;
+        let _z = _x + _y;
+        document.getElementById("demo4").innerHTML = _z;
+
+        let __x = 5;
+        let __y = 2;
+        let __z = __x - __y;
+        document.getElementById("demo5").innerHTML = __z;
+
+        let $x = 5;
+        let $y = 2;
+        let $z = $x * $y;
+        document.getElementById("demo6").innerHTML = $z;
+
+        let $$x = 5;
+        let $$y = 2;
+        let $$z = $$x / $$y;
+        document.getElementById("demo7").innerHTML = $$z;
+
+        let $$$x = 5;
+        let $$$y = 2;
+        let $$$z = $$$x % $$y;
+        document.getElementById("demo8").innerHTML = $$$z;
+
+        let _$x = 5;
+        _$x++;
+        let _$z = _$x;
+        document.getElementById("demo9").innerHTML = _$z;
+
+        let  $_xx = 5;
+        $_x--;
+        let  $_z =  $_xx;
+        document.getElementById("demo10").innerHTML =  $_xz;
+
+        let f = 5;
+        document.getElementById("demo11").innerHTML = f ** 2;
+
+        let x_ = 5;
+        document.getElementById("demo12").innerHTML = Math.pow(x_,2);
+
+        document.getElementById("demo13").innerHTML = 100 + 50 * 3;
+
+        document.getElementById("demo14").innerHTML = (100 + 50) * 3;
+
+        document.getElementById("demo15").innerHTML = 100 + 50 - 3;
+
+        document.getElementById("demo16").innerHTML = 100 / 50 * 3;
+    </script>
+</body>
+</html>
